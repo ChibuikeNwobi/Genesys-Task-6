@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Grading App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="home">Home</a></li>
+            <li class="nav-item"><a href="about">About</a></li>
+            <li class="nav-item"><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h1>Welcome to the Web Grading App</h1>
+    </header>
+    <main class="main-content">
+        <p>
+        <h4>This is a simple web application for grading purposes.</h4>
+        </p>
+    </main>
+
+    <div class="disclaimer">
+        <article disclaimer-text>
+            Disclaimer⚠️: This web grading app is intended for educational purposes only. <br>
+            Users are advised to check their grades through the chrome console.
+        </article>
+    </div>
+
+    <div class="form-container">
+        <div class='form-container-text'>
+            <h2>GPA Calculator</h2>
+        </div>
+        <div class="form-container-grade">
+            <form id="grade-form">
+                <div class="grade-form-style">
+                    <label for="grade-math">Math:</label>
+                    <input type="text" id="grade-math" name="Math" placeholder="Input Your Score" required> <br><br>
+
+                </div>
+
+                <div class="grade-form-style">
+                    <label for="grade-english">English:<label>
+                            <input type="text" id="grade-english" name="English" placeholder="Input Your Score"
+                                required> <br><br>
+
+                </div>
+
+                <div class="grade-form-style">
+                    <label for="grade-chemistry">Chemistry:</label>
+                    <input type="text" id="grade-chemistry" name="Chemistry" placeholder="Input Your Score" required>
+                    <br><br>
+
+                </div>
+
+                <div class="grade-form-style">
+                    <label for="grade-further math">Further Math:</label>
+                    <input type="text" id="grade-further-math" name="Further Math" placeholder="Input Your Score"
+                        required> <br><br>
+
+                </div>
+
+                <div class="grade-form-btn">
+                    <button id='calc-btn' type="button">Calculate Aggregate</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <div class="footer-style">
+        <footer>
+            <h3>Contact us</h3>
+            <p> Tel: 09060923033</p>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
